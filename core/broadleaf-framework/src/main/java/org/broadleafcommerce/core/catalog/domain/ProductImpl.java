@@ -87,6 +87,7 @@ import javax.persistence.OrderBy;
 import javax.persistence.Transient;
 
 /**
+ * Start change by Lee SeongUk
  * The Class ProductImpl is the default implementation of {@link Product}. A
  * product is a general description of an item that can be sold (for example: a
  * hat). Products are not sold or added to a cart. {@link Sku}s which are
