@@ -106,6 +106,8 @@ public class RuntimeEnvironmentPropertiesConfigurer extends PropertyPlaceholderC
     }
 
     protected String defaultEnvironment = "development";
+//    protected String defaultEnvironment = "integrationdev";
+    
     protected String determinedEnvironment = null;
     protected RuntimeEnvironmentKeyResolver keyResolver;
     protected Set<String> environments = Collections.emptySet();

@@ -6,12 +6,14 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
-    <groupId>org.broadleafcommerce</groupId>
     <artifactId>broadleaf</artifactId>
     <packaging>pom</packaging>
-    <name>BroadleafCommerce</name>
+    <name>MetaWorks</name>
     <version>3.1.12-GA</version>
-    <description>BroadleafCommerce Top Level Project</description>
+    <description>this is metaworks custom project 
+from BroadleafCommerce Top Level Project
+
+this version is 3.1.12-GA</description>
     <url>http://www.broadleafcommerce.org</url>
     <licenses>
         <license>
@@ -1303,4 +1305,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <groupId>net.metaworks</groupId>
 </project>

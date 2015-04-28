@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>admin</artifactId>
-        <groupId>org.broadleafcommerce</groupId>
         <version>3.1.12-GA</version>
+        <groupId>net.metaworks</groupId>
     </parent>
     <artifactId>broadleaf-contentmanagement-module</artifactId>
     <packaging>jar</packaging>

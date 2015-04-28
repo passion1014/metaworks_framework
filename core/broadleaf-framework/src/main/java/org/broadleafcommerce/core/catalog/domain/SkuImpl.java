@@ -187,8 +187,10 @@ public class SkuImpl implements Sku {
     protected String description;
 
     @Lob
-    @Type(type = "org.hibernate.type.StringClobType")
-    @Column(name = "LONG_DESCRIPTION", length = Integer.MAX_VALUE - 1)
+//    @Type(type = "org.hibernate.type.StringClobType")
+    @Type(type = "org.hibernate.type.TextType")
+//    @Column(name = "LONG_DESCRIPTION", length = Integer.MAX_VALUE - 1)
+    @Column(name = "LONG_DESCRIPTION")
     @AdminPresentation(friendlyName = "SkuImpl_Sku_Large_Description", order = ProductImpl.Presentation.FieldOrder.LONG_DESCRIPTION,
         group = ProductImpl.Presentation.Group.Name.General, groupOrder = ProductImpl.Presentation.Group.Order.General,
         largeEntry = true, 
