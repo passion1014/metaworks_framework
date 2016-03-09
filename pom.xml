@@ -488,7 +488,7 @@ this version is 3.1.12-GA</description>
             <dependency>
                 <groupId>commons-collections</groupId>
                 <artifactId>commons-collections</artifactId>
-                <version>3.2.1</version>
+                <version>3.2.2</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
