@@ -826,7 +826,7 @@ this version is 3.1.12-GA</description>
             <dependency>
                 <artifactId>solr-core</artifactId>
                 <groupId>org.apache.solr</groupId>
-                <version>4.4.0</version>
+                <version>8.8.2</version>
                 <type>jar</type>
                 <scope>compile</scope>
                 <exclusions>
