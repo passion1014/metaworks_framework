@@ -1268,7 +1268,7 @@ this version is 3.1.12-GA</description>
             <dependency>
                 <groupId>org.owasp.antisamy</groupId>
                 <artifactId>antisamy</artifactId>
-                <version>1.4.5</version>
+                <version>1.6.7</version>
                 <scope>compile</scope>
             </dependency>
             <dependency>
